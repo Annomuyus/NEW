@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body {
+    background-image: url(wall.jpg);
+    font-family: Roboto;
+    margin-top: 70px;
+    margin-bottom: 150px;
+
+}
+.box{
+    background-color: rgb(163, 163, 163);
+   border: 1px solid rgb(4, 131, 0);
+   text-align: center;
+}    
+.link{
+    color: rgb(0, 165, 41);
+    text-decoration: underline;
+    
+}
+.whitemain{
+    color: rgb(0, 0, 0);
+}
+#box {
+    border-radius: 10px;
+    border: 2px solid #00ff15;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px; 
+    width: 550px;
+    height: 500;  
+    box-shadow: 10px 10px 5px rgba(0, 255, 42, 0.767);
+    filter: blur(100%);
+  }
+  
+  .button {
+    background-color: #018b01c9;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .centercontent{
+    text-align: center;
+  }
+  .margin{
+ 
+    margin-left: 430px;
+  }
+  .inputbox{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Roboto;
+  }
+  hr.solid {
+    border-top: 3px solid  #00ff15;
+  }
+  label{
+    color: white;
+  }
+  h1{
+    text-align: center;
+  }
